@@ -17,12 +17,10 @@ nav a {
 section {
      padding: 80px;
  }
-table {
-    color: white;
+table {    color: white;
     text-align: center;
     width: 100%;
-    border-collapse: collapse;
-}
+    border-collapse: collapse; }
 
 td, th { border: 1px solid #a5b4fc; }
 td {padding: 80px;}
@@ -34,8 +32,8 @@ h1 {
     font-family:'Montserrat', sans-serif;
     color: #A5B4FC;
     font-size: 3.5em;
-    padding : 30px
-}
+    padding : 30px }
+    
 p, li, h2 {
     color: #F9F8FF;
 }
