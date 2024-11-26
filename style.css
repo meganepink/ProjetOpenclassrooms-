@@ -59,7 +59,7 @@ form {
 }
 input,
 textarea {
-    padding: 15px;
+    padding: 25px;
     border-radius: 3px;
     border: none;
 }
@@ -119,23 +119,29 @@ input[type='submit'] {
      width: 80%;
      align-items: center;
      justify-content: space-between;
-     margin: auto;
+     margin: 100px;
+     padding: 120px;
 }
 .accueil-photos {
     background-color: white;
-    padding: 80px;
+    padding: 30px;
+    margin-bottom: 50px;
+
 }
 .accueil-photos h2 {
+    font-size: 2.8em;
     color: #242424;
     text-align: center;
-    margin-bottom: 80px;
+    margin-bottom: 50px;
+    margin-top: 90px;
 }
 .accueil-photos div {
     display: flex;
     flex-direction: row;
-    gap: 15px;
+    gap: 25px;
     justify-content: center;
-    margin-bottom: 15px;
+    margin-bottom: 35px;
+    
 }
 .maclass {
     background: linear-gradient(#8e86b5, #acaeed);
@@ -187,3 +193,6 @@ input[type='submit'] {
     text-align: center;
 }
 
+.accueil-photos p { 
+    color: #242424;
+}
